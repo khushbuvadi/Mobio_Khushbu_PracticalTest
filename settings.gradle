@@ -1,0 +1,2 @@
+rootProject.name = "Mobio_Khushbu_PracticalTest"
+include ':app'
