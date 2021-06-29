@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void LoadJsonFile() {
         String jsonFileString = Utils.getJsonFromAssets(getApplicationContext(), "Products.json");
-        //Log.e("data","==> " + jsonFileString);
+        Log.e("data","==> " + jsonFileString);
         String picture="";
         try {
             JSONArray obj = new JSONArray(jsonFileString);
